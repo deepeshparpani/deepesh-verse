@@ -1,0 +1,43 @@
+/* 1. Import the Comic & Code Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fira+Code:wght@400;600&display=swap');
+
+/* 2. Initialize Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. Global Styles for the "Spider-Verse" Look */
+:root {
+  font-family: 'Fira Code', monospace; /* Default to code font */
+  background-color: #0f0c29; /* Deep space purple/black */
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents glitch effects from creating scrollbars */
+  width: 100%;
+}
+
+/* Custom Utility: Ben-Day Dots Background */
+.bg-dots {
+  background-color: #0f0c29;
+  background-image: radial-gradient(#333 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom Scrollbar (optional but nice) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0c29;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0055; /* Glitch Pink hover */
+}
