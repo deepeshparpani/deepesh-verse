@@ -27,7 +27,7 @@ const experiences = [
   {
     company: "SAMSUNG R&D INSTITUTE",
     role: "Research Intern (SPARCS PRISM)",
-    date: "Dec 2022 - July 2023",
+    date: "Dec 2022 - Aug 2023",
     location: "Remote / Hybrid",
     points: [
       "Implemented a Seq2Seq model with BERT for joint intent detection, achieving 79% accuracy on mixSNIPS.",
@@ -38,7 +38,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section className="min-h-screen py-20 px-4 md:px-8 bg-spider-dark relative overflow-hidden">
+    <section id='experience' className="min-h-screen py-20 px-4 md:px-8 bg-spider-dark relative overflow-hidden">
       
       {/* Title */}
       <div className="max-w-4xl mx-auto mb-16 text-center relative z-10">

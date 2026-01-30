@@ -8,10 +8,12 @@
 
 /* 3. Global Styles for the "Spider-Verse" Look */
 :root {
-  font-family: 'Fira Code', monospace; /* Default to code font */
-  background-color: #0f0c29; /* Deep space purple/black */
+  font-family: 'Fira Code', monospace;
+  background-color: #0f0c29;
   color: white;
+  /* color-scheme: light dark;  <-- DELETE THIS LINE IF IT EXISTS */
 }
+/* ... rest of your css ... */
 
 body {
   margin: 0;

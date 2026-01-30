@@ -39,7 +39,7 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section className="min-h-screen py-20 px-8 bg-spider-dark relative">
+    <section id='projects' className="min-h-screen py-20 px-8 bg-spider-dark relative">
       
       {/* Section Title */}
       <div className="max-w-6xl mx-auto mb-16 relative">

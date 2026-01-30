@@ -1,10 +1,23 @@
+// src/sections/Skills.jsx
+
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Terminal, Cpu, Database, Layers } from 'lucide-react';
+import { Code, Terminal, Layers } from 'lucide-react';
 
+// UPDATED SKILLS DATA
 const skills = {
-  "LANGUAGES": ["Java", "Python", "C/C++", "SQL", "Rust", "JavaScript", "HTML/CSS"],
-  "FRAMEWORKS": ["React", "Spring Boot", "FastAPI", "Next.js", "Node.js", "Flutter", "PyTorch"],
+  "LANGUAGES": ["Java", "Python", "C/C++", "SQL", "Rust", "JavaScript", "TypeScript"],
+  "FRAMEWORKS": [
+    "React", 
+    "Spring Boot", 
+    "PyTorch", 
+    "Next.js", 
+    "LangChain", 
+    "Hugging Face", 
+    "TailwindCSS", 
+    "Node.js", 
+    "React Native"
+  ],
   "TOOLS & CLOUD": ["Docker", "Kubernetes", "GCP", "AWS", "GitHub Actions", "Kafka", "Redis"]
 };
 
@@ -16,7 +29,7 @@ const iconMap = {
 
 const Skills = () => {
   return (
-    <section className="py-20 px-8 bg-spider-dark relative bg-dots">
+    <section id="skills" className="py-20 px-8 bg-spider-dark relative bg-dots">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}
