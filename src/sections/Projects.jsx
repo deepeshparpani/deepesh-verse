@@ -11,7 +11,7 @@ const projectsData = [
       "Integrated Kinetic Proxy features (v² × m) into cost-sensitive XGBoost models, achieving a 99.2% recall rate.",
       "Architected a cloud-native microservices system with automated retraining pipelines on Google Cloud Run."
     ],
-    link: "https://github.com/deepeshparpani" // Replace with actual link if available
+    link: "https://github.com/deepeshparpani/planetary-defense-system"
   },
   {
     title: "AUTONOMOUS MEDICAL TRIAGE",
@@ -22,7 +22,7 @@ const projectsData = [
       "Engineered 'System 2' reflective workflows to reduce hallucinations by 40%.",
       "Implemented an RLHF loop to auto-curate a Golden Dataset from real-time clinician feedback."
     ],
-    link: "https://github.com/deepeshparpani"
+    link: "https://github.com/deepeshparpani/Aegis-AI"
   },
   {
     title: "GOING DUTCH",
@@ -33,7 +33,7 @@ const projectsData = [
       "Designed an impersonation feature allowing expense sharing without requiring group member logins.",
       "Optimized for graph simplification in cases with minimal lenders and many borrowers."
     ],
-    link: "https://github.com/deepeshparpani"
+    link: "https://github.com/deepeshparpani/goingDutch-WebApp"
   }
 ];
 

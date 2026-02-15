@@ -2,35 +2,64 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Terminal, Layers } from 'lucide-react';
+import { Code, Terminal, Cpu, Database } from 'lucide-react';
 
-// UPDATED SKILLS DATA
+// FULLY EXTRACTED TECH STACK FROM RESUME
 const skills = {
-  "LANGUAGES": ["Java", "Python", "C/C++", "SQL", "Rust", "JavaScript", "TypeScript"],
-  "FRAMEWORKS": [
-    "React", 
-    "Spring Boot", 
-    "PyTorch", 
-    "Next.js", 
-    "LangChain", 
-    "Hugging Face", 
-    "TailwindCSS", 
-    "Node.js", 
-    "React Native"
+  "LANGUAGES": [
+    "Python", 
+    "C/C++", 
+    "Java", 
+    "SQL (Postgres/MySQL)", 
+    "JavaScript", 
+    "Dart", 
+    "R", 
+    "PHP", 
+    "HTML/CSS"
   ],
-  "TOOLS & CLOUD": ["Docker", "Kubernetes", "GCP", "AWS", "GitHub Actions", "Kafka", "Redis"]
+  "AI & ML ARSENAL": [
+    "PyTorch", 
+    "TensorFlow", 
+    "MLX",            // [cite: 28]
+    "Transformers",   // [cite: 28]
+    "VLMs",           // [cite: 30]
+    "Hugging Face", 
+    "XGBoost",        // [cite: 26]
+    "Scikit-learn", 
+    "Keras", 
+    "BERT",           // 
+    "Pandas/NumPy", 
+    "Matplotlib"
+  ],
+  "ENGINEERING & CLOUD": [
+    "React", 
+    "Next.js", 
+    "Node.js", 
+    "Spring Boot",    // 
+    "FastAPI", 
+    "Redis",          // 
+    "Docker", 
+    "Kubernetes", 
+    "GCP", 
+    "AWS", 
+    "Azure", 
+    "GitHub Actions", // [cite: 27]
+    "Flutter", 
+    "React Native",
+    "Streamlit"
+  ]
 };
 
 const iconMap = {
   "LANGUAGES": <Code className="text-spider-yellow" />,
-  "FRAMEWORKS": <Layers className="text-spider-blue" />,
-  "TOOLS & CLOUD": <Terminal className="text-spider-red" />
+  "AI & ML ARSENAL": <Cpu className="text-spider-red" />, // Changed icon to CPU for AI
+  "ENGINEERING & CLOUD": <Terminal className="text-spider-blue" />
 };
 
 const Skills = () => {
   return (
     <section id="skills" className="py-20 px-8 bg-spider-dark relative bg-dots">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         
         {/* Header */}
         <div className="text-center mb-16">
