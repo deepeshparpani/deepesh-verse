@@ -51,14 +51,14 @@ const otherProjects = [
     desc: "Distraction-free YouTube wrapper.",
     tech: "JS / Chrome Ext",
     icon: <Youtube size={16} />,
-    link: "https://github.com/deepeshparpani/focus-tube"
+    link: "https://github.com/deepeshparpani/FocusExtension"
   },
   {
     title: "Quick Copy",
     desc: "Productivity tool for fast clipboard actions.",
     tech: "JavaScript / Utils",
     icon: <Copy size={16} />,
-    link: "https://github.com/deepeshparpani/quick-copy"
+    link: "https://github.com/deepeshparpani/QuickCopy"
   },
   {
     title: "Healthcare DApp",
@@ -148,7 +148,7 @@ const Projects = () => {
         {/* --- TIER 2: OTHER PROJECTS --- */}
         <div className="mb-8">
             <h3 className="text-2xl font-comic text-white mb-6 border-l-4 border-spider-yellow pl-4">
-                OTHER PROJECTS
+                OTHER MISSIONS
             </h3>
         </div>
 
