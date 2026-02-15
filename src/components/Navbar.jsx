@@ -7,6 +7,7 @@ const navLinks = [
   { name: 'CANON EVENTS', href: '#experience', id: 'experience' },
   { name: 'MISSIONS', href: '#projects', id: 'projects' },
   { name: 'GADGETS', href: '#skills', id: 'skills' },
+  { name: 'SIGNAL', href: '#contact', id: 'contact' },
 ];
 
 const Navbar = () => {
