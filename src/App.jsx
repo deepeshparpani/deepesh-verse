@@ -5,6 +5,7 @@ import Experience from './sections/Experience';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 import Contact from './sections/Contact'; // <--- Import this
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <Experience />
       <Projects />
       <Skills />
-      <Contact /> {/* <--- Add this at the end */}
+      <Contact />
+      <Footer />
+   
     </main>
   );
 }

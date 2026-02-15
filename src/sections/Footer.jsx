@@ -1,3 +1,5 @@
+// src/components/Footer.jsx
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ExternalLink } from 'lucide-react';
@@ -31,11 +33,11 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* The Download Button */}
+          {/* The Download Button (Resume) */}
           <motion.a 
             href="https://drive.google.com/file/d/1ASwaWtglmk06QLA3zp1f1cpmDCwIsFMs/view?usp=sharing" 
-           target="_blank"             // Opens in a new tab
-            rel="noopener noreferrer"   // Security best practice
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05, rotate: 2 }}
             whileTap={{ scale: 0.95 }}
             className="group relative bg-black text-white px-8 py-4 font-bold font-mono border-4 border-black shadow-[8px_8px_0px_0px_#ff0055] hover:shadow-[12px_12px_0px_0px_#00f3ff] transition-all cursor-pointer flex items-center gap-3"
